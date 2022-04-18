@@ -17,5 +17,10 @@ aplication/json
   "message": `hello ${name}
 }
 ```
+
+#### 결과물
+- Router: [Router.java](https://github.com/radic2510/spring-webflux-practice/blob/main/src/main/java/com/codestates/edastudy/router/Router.java)
+- Handler: [Handler.java](https://github.com/radic2510/spring-webflux-practice/blob/main/src/main/java/com/codestates/edastudy/handler/Handler.java)
+
 ---
 
