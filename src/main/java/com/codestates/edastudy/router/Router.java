@@ -13,7 +13,7 @@ import org.springframework.web.reactive.function.server.ServerResponse;
 public class Router {
 
     @Bean
-    public RouterFunction<ServerResponse> commonRouter(Handler handler) {
+    public RouterFunction<ServerResponse> helloRouter(Handler handler) {
         return RouterFunctions.route()
                 .GET("/hello", handler::helloMessage)
                 .build();
